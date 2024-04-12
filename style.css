@@ -1,18 +1,29 @@
-h1{
+h1 {
     font-size: 50px;
     font-family: fantasy;
     color: black;
     text-align: center;
     text-decoration: underline;
 }
-body{
+
+body {
     background-color: black;
-    background-image: linear-gradient(to right, purple, lightpink, gold);
-    background-image: radial-gradient( yellow, orange, red);
+    /* background-image: linear-gradient(to right, purple, lightpink, gold); */
+    background-image: radial-gradient(yellow, orange, red);
 }
-div{
+
+div {
     text-align: center;
 }
-p{
-    text-align:justify;
+ #madlib input{
+    margin: auto;
+ }
+form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+p {
+    text-align: justify;
 }
