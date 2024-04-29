@@ -7,9 +7,11 @@ h1 {
 }
 
 body {
-    background-color: black;
-    /* background-image: linear-gradient(to right, purple, lightpink, gold); */
-    background-image: radial-gradient(yellow, orange, red);
+    /* background-color: black; */
+    background: linear-gradient(to right, purple, lightpink, gold);
+    background: radial-gradient(yellow, orange, red);
+    background-size: 100%;
+    background-size: cover;
 }
 
 div {
@@ -24,6 +26,7 @@ form {
     justify-items: center;
 }
 
-p {
-    text-align: justify;
+button {
+    margin: 1.5rem;
 }
+

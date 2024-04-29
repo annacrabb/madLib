@@ -13,24 +13,27 @@
     <h1>Fool of a Took!! Mad Lib</h1>
     <div id="madlib">
         <form action="#">
-            <input type="text" placeholder="noun">
-            <input type="text" placeholder="adjective">
-            <input type="text" placeholder="animal (plural)">
-            <input type="text" placeholder="animal (plural)">
-            <input type="text" placeholder="verb ending in -ing">
-            <input type="text" placeholder="adjective">
-            <input type="text" placeholder="famous person">
-            <input type="text" placeholder="color">
-            <input type="text" placeholder="noun (plural)">
-            <input type="text" placeholder="noun (plural)">
-            <input type="text" placeholder="animal (plural)">
-            <input type="text" placeholder="verb ending in -ing">
-            <input type="text" placeholder="noun (plural)">
+            <input type="text" placeholder="noun" id="wordOne">
+            <input type="text" placeholder="adjective" id="wordTwo">
+            <input type="text" placeholder="number" id="wordThree">
+            <input type="text" placeholder="animal (plural)" id="wordFour">
+            <input type="text" placeholder="verb ending in -ing" id="wordFive">
+            <input type="text" placeholder="adjective" id="wordSix">
+            <input type="text" placeholder="famous character" id="wordSeven">
+            <input type="text" placeholder="color" id="wordEight">
+            <input type="text" placeholder="noun (plural)" id="wordNine">
+            <input type="text" placeholder="noun (plural)" id="wordTen">
+            <input type="text" placeholder="animal (plural)" id="wordEleven">
+            <input type="text" placeholder="verb past tense" id="wordTwelve">
+            <input type="text" placeholder="noun (plural)" id="wordThirteen">
         </form>
-        <button>Fly, you fools!</button>
+        
+        <button type="submit" onclick="createParagraph()">Fly, you fools!</button>
     </div>
-    <p>In J.R.R. Tolkien`s famous trilogy Lord of the           [1]          s the first book is called Fellowship of the           [1]          . In this book a group of           [2]           Hobbits flee their hometown. They eventually join into a fellowship made up of           [3]          , Elves and           [4]          , with the goal of           [5]           the One           [1]          . They begin by traveling through the           [6]           mountains, where           [7]           the           [8]           is lost. They continue on to the forest, where the queen of the           [9]           gives them           [10]           to ride down the river. At the end of the book, Merri and Pippin get captured by           [11]          , and Frodo is           [12]           by one of his fellow           [13]           and leaves on his own (but with Sam).
-    </p>
+
+    <div id="answer"></div>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
