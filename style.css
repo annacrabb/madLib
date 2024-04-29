@@ -9,7 +9,7 @@ h1 {
 body {
     /* background-color: black; */
     background: linear-gradient(to right, purple, lightpink, gold);
-    background: radial-gradient(yellow, orange, red);
+    background: content-box radial-gradient(yellow, orange, red);
     background-size: 100%;
     background-size: cover;
 }
@@ -23,10 +23,18 @@ div {
 form {
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    /* justify-items: center; */
 }
 
 button {
     margin: 1.5rem;
 }
 
+div #answer{
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+html {
+    height: 100%;
+}
